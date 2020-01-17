@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 const routes = require("./routes");
 
 // Define middleware here
@@ -28,5 +28,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
+  console.log(`🌎 ==> API server working now on port ${PORT}!`);
 });
